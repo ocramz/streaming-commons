@@ -1,3 +1,7 @@
+## 0.2.0
+
+* Drop `blaze-builder` dependency
+
 ## 0.1.18
 
 * Add `isCompleteInflate`

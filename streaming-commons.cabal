@@ -116,7 +116,7 @@ benchmark count-chars
     type: exitcode-stdio-1.0
     hs-source-dirs: bench
     build-depends:  base
-                  , criterion
+                  , gauge
                   , bytestring
                   , text
                   , streaming-commons
@@ -140,7 +140,7 @@ benchmark builder-to-bytestring-io
     ghc-options:    -Wall -O2
     build-depends:  base
                   , bytestring >= 0.10.2
-                  , criterion
+                  , gauge
                   , deepseq
                   , streaming-commons
 
